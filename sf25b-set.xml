@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+	 <sim>
+ 		<description type="string">Scheibe SF-25B Falke</description>
+		<author type="string">A. Goritsas</author>
+		<status type="string">alpha</status>
+		<aircraft-version>20091103</aircraft-version>
+		<flight-model>yasim</flight-model>
+		<aero>sf25b-yasim</aero>
+		<startup>
+			<splash-texture>Aircraft/sf25b/Splash/Splash-1.png</splash-texture>
+		</startup>
+		 
+		<view n="0">
+		<internal archive="y">true</internal>
+		<config>
+			<!-- <pitch-offset-deg>-13.0</pitch-offset-deg> -->
+			<x-offset-m archive="y">-0.225</x-offset-m> <!--Right-->
+			<y-offset-m archive="y">0.465</y-offset-m> <!--Up-->
+			<z-offset-m archive="y">-0.165</z-offset-m> <!--Back-->
+			<pitch-offset-deg>0</pitch-offset-deg> <!--viewangle-->
+			<default-field-of-view-deg>75</default-field-of-view-deg> <!--Zoom-->
+			</config>
+
+		</view>
+		<sound>
+			<path archive="y">Aircraft/sf25b/Sounds/sf25b-sound.xml</path>
+		</sound>
+
+		<canopy>
+			<position-norm type="double">0</position-norm>
+		</canopy>
+		<model>
+			<path>Aircraft/sf25b/Models/sf25b.xml</path>
+			<canopy>
+				<canopy-switch type="int">2</canopy-switch>
+			</canopy>
+		<!-- <texture-path>./Textures</texture-path> -->
+		</model>
+		<help>
+			<title>Scheibe SF-25B Falke</title>
+			<line>Vs &lt; 35 KIAS</line>
+			<line>Vx 59 KIAS</line>
+			<line>Vy 80-100 KIAS</line>
+			<line>Vne 105 KIAS</line>
+  	  		<key>
+				<name>C</name>
+				<desc>Open/Close Canopy</desc>
+			</key>
+			<key>
+				<name>j / k</name>
+				<desc>Retract / extend spoilers and apply wheel brake</desc>
+			</key>
+			<line>Caution: On the SF-25 the wheel brake is applied by pulling the spoiler lever all the way.
+			The brakes start to work at around 80% spoiler. 
+			Touching down with the spoilers fully extended on landing will result in the aircraft nosing over.</line>
+
+			<line>The parking brake lever will lock the spoilers + brake lever open. Pulling the brake further will
+			release the parking brake.</line>
+		</help>
+
+	 </sim>
+	<input>
+		<keyboard>
+			<key n="67">
+				<name>C</name>
+				<desc>Toggle Canopy</desc>
+				<binding n="0">
+					<command>nasal</command>
+					<script>sf25b.toggle_canopy()</script>
+				</binding>
+			</key>
+			<key n="106">
+				<name>j</name>
+				<desc>Spoilers retract</desc>
+				<binding>
+					<command>property-adjust</command>
+					<property>controls/flight/spoilers</property>
+					<step>-0.1</step>
+					<min>0.0</min>
+				</binding>
+			</key>
+			<key n="107">
+				<name>k</name>
+				<desc>Spoilers extend</desc>
+				<binding>
+					<command>property-adjust</command>
+					<property>controls/flight/spoilers</property>
+					<step>0.1</step>
+					<max>1.0</max>
+				</binding>
+			</key>
+
+		</keyboard>
+	</input>
+	<nasal>
+		<sf25b>
+			<file>Aircraft/sf25b/Nasal/sf25b.nas</file>
+			<file>Aircraft/sf25b/Nasal/sf25b-electrical.nas</file>
+			<file>Aircraft/sf25b/Nasal/spoilers.nas</file>
+                        <file>Aircraft/sf25b/Nasal/ilec-sc7.nas</file>
+                        <file>Aircraft/ASK13/Nasal/wool-thread.nas</file>
+		</sf25b>
+	</nasal>
+</PropertyList>
+ 

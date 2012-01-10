@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+	<path>panel.ac</path>
+        <texture-path>Textures</texture-path>
+
+  <!-- Glider vario -->
+  <model>
+    <name>Vario</name>
+    <path>Aircraft/Instruments-3d/glider/vario/ilec-sc7/ilec-sc7.xml</path>
+    <offsets>
+      <x-m> -0.872 </x-m>
+      <y-m> -0.277 </y-m>
+      <z-m>  0.200 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Magnetic compass -->
+  <model>
+    <name>Compass</name>
+    <!-- <path>Aircraft/Instruments-3d/comp/comp.xml</path> -->
+    <path>Aircraft/Instruments-3d/mag-compass.xml</path>
+    <offsets>
+      <x-m> -0.872 </x-m>
+      <y-m> -0.275 </y-m>
+      <z-m>  0.260 </z-m>
+      <scale>1.2</scale>
+      <pitch-deg>-15</pitch-deg>
+    </offsets>
+  </model>
+
+  <!-- Outside Air Temperature -->
+  <model>
+    <name>OAT</name>
+    <path>Aircraft/sf25b/Models/Interior/Panel/Instruments/OAT/OAT.xml</path>
+    <offsets>
+      <x-m> -0.872 </x-m>
+      <y-m> -0.346 </y-m>
+      <z-m>  0.200 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Altimeter -->
+  <model>
+    <name>ALT</name>
+    <!--<path>Aircraft/Allegro-2000/Models/Interior/Panel/Instruments/alt/alt.xml</path>-->
+    <path>Aircraft/Instruments-3d/alt/alt.xml</path>
+    <offsets>
+      <x-m> -0.872 </x-m>
+      <y-m> -0.016 </y-m>
+      <z-m>  0.282 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Airspeed indicator -->
+  <model>
+    <name>ASI</name>
+    <!-- <path>Aircraft/Instruments-3d/asi/asi.xml</path> -->
+    <!-- <path>Aircraft/ASK13/Models/instruments/winter-asi-6221/winter-asi-6221.xml</path> -->
+    <path>Aircraft/sf25b/Models/Interior/Panel/Instruments/winter-asi-6221/winter-asi-6221.xml</path>
+    <offsets>
+      <x-m> -0.872 </x-m>
+      <y-m> -0.110 </y-m>
+      <z-m>  0.282 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Heading indicator -->
+  <model>
+    <name>HI</name>
+    <path>Aircraft/Instruments-3d/hi/hi.xml</path>
+    <offsets>
+      <x-m> -0.872</x-m>
+      <y-m> -0.198</y-m>
+      <z-m>  0.280</z-m>
+    </offsets>
+  </model>
+
+  <!-- Turn coordinator -->
+  <model>
+    <name>TC</name>
+    <path>Aircraft/Instruments-3d/tc/tc.xml</path>
+    <offsets>
+      <x-m> -0.872 </x-m>
+      <y-m> -0.198 </y-m>
+      <z-m>  0.197 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Variometer -->
+  <model>
+    <name>VSI</name>
+    <!-- <path>Aircraft/Instruments-3d/vsi/vsi.xml</path> -->
+    <!-- <path>Aircraft/ASK13/Models/instruments/vario-5stv5/winter-vario-5stv5.xml</path> -->
+    <path>Aircraft/sf25b/Models/Interior/Panel/Instruments/vario-5stv5/winter-vario-5stv5.xml</path>
+    <offsets>
+      <x-m> -0.872 </x-m>
+      <y-m> -0.108 </y-m>
+      <z-m>  0.200 </z-m>
+      <scale>0.7</scale>
+    </offsets>
+  </model>
+
+  <!-- Engine RPM -->
+  <model>
+    <name>TACH</name>
+    <path>Aircraft/Instruments-3d/tach/tach.xml</path>
+    <offsets>
+      <x-m> -0.872 </x-m>
+      <y-m> -0.016 </y-m>
+      <z-m>  0.200 </z-m>
+    </offsets>
+  </model>
+
+
+  <!-- Fuel -->
+  <model>
+    <path>Aircraft/sf25b/Models/Interior/Panel/Instruments/fuel/fuel.xml</path>
+    <offsets>
+      <x-m> -0.872 </x-m>
+      <y-m>  0.250 </y-m>
+      <z-m>  0.265 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Oil pressure -->
+  <model>
+    <path>Aircraft/sf25b/Models/Interior/Panel/Instruments/oil-press/oil-press.xml</path>
+    <offsets>
+      <x-m> -0.872 </x-m>
+      <y-m>  0.250 </y-m>
+      <z-m>  0.207 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Oil temperature -->
+  <model>
+    <path>Aircraft/sf25b/Models/Interior/Panel/Instruments/oil-temp/oil-temp.xml</path>
+    <offsets>
+      <x-m> -0.872 </x-m>
+      <y-m>  0.310 </y-m>
+      <z-m>  0.207 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Amps -->
+  <model>
+    <path>Aircraft/sf25b/Models/Interior/Panel/Instruments/amps/amps.xml</path>
+    <offsets>
+      <x-m> -0.872 </x-m>
+      <y-m>  0.310 </y-m>
+      <z-m>  0.265 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Clock -->
+  <model>
+    <path>Aircraft/Instruments-3d/clock/clock.xml</path>
+    <offsets>
+      <x-m> -0.870 </x-m>
+      <y-m>  0.188 </y-m>
+      <z-m>  0.162 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <name>Transponder</name>
+    <path>Aircraft/Instruments-3d/kt70/kt70.xml</path>
+    <offsets>
+      <x-m> -0.878 </x-m>
+      <y-m>  0.302 </y-m>
+      <z-m>  0.128 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Comm radio -->
+  <model>
+    <name>kx165-1</name>
+    <path>Aircraft/pa28-161/Models/radio_stack/kx165-1.xml</path>
+    <offsets>
+      <x-m> -0.872 </x-m>
+      <y-m>  0.130 </y-m>
+      <z-m>  0.267 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+         <!--<path>Aircraft/ASK13/Models/instruments/wool-thread/wool-thread.xml</path>-->
+         <path>Aircraft/sf25b/Models/Interior/Panel/Instruments/wool-thread/wool-thread.xml</path>
+         <offsets>
+                 <x-m>-0.870</x-m>
+                 <y-m> 0</y-m>
+                 <z-m>0.591</z-m>
+                 <pitch-deg>0</pitch-deg>
+         </offsets>
+  </model>
+
+
+</PropertyList>

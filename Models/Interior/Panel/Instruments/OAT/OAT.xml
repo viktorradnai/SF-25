@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>OAT.ac</path>
+
+    <animation>
+        <type>textranslate</type>
+        <object-name>mhz10</object-name>
+	<property>environment/temperature-degc</property>
+        <factor>0.01</factor>
+        <step>10</step>
+        <bias>0.005</bias>
+        <axis>
+            <x>1</x>
+            <y>0</y>
+            <z>0</z>
+        </axis>
+    </animation>
+    
+        <animation>
+        <type>textranslate</type>
+        <object-name>mhz1</object-name>
+	<property>environment/temperature-degc</property>
+        <factor>0.1</factor>
+        <step>1</step>
+        <bias>0.005</bias>
+        <axis>
+            <x>1</x>
+            <y>0</y>
+            <z>0</z>
+        </axis>
+    </animation>
+    
+    <animation>
+        <type>textranslate</type>
+        <object-name>khz10</object-name>
+	<property>environment/temperature-degc</property>
+        <factor>1.0</factor>
+        <step>0.1</step>
+        <bias>0.005</bias>
+        <axis>
+            <x>1</x>
+            <y>0</y>
+            <z>0</z>
+        </axis>
+    </animation>
+ 
+    <animation>
+        <type>textranslate</type>
+        <object-name>khz1</object-name>
+	<property>environment/temperature-degc</property>
+        <factor>10.0</factor>
+        <step>0.01</step>
+        <bias>0.005</bias>
+        <axis>
+            <x>1</x>
+            <y>0</y>
+            <z>0</z>
+        </axis>
+    </animation>
+</PropertyList>
