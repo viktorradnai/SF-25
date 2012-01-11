@@ -3,9 +3,15 @@
 <PropertyList>
 	 <sim>
  		<description type="string">Scheibe SF-25B Falke</description>
-		<author type="string">A. Goritsas</author>
+		<author type="string">A. Goritsas, V. Radnai</author>
 		<status type="string">alpha</status>
-		<aircraft-version>20091103</aircraft-version>
+		<rating>
+			<FDM type="int">2</FDM>
+			<systems type="int">1</systems>
+			<cockpit type="int">2</cockpit>
+			<model type="int">2</model>
+		</rating>
+		<aircraft-version>20120111</aircraft-version>
 		<flight-model>yasim</flight-model>
 		<aero>sf25b-yasim</aero>
 		<startup>
