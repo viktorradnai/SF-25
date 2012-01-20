@@ -29,6 +29,42 @@ A. Goritsas-->
 			<z-m>0.764</z-m>
 		</center>
 	</animation>
+ 	<animation>
+		<type>rotate</type>
+		<object-name>Rudderpedalspilot</object-name>
+		<property>/controls/flight/rudder</property>
+		<min-deg>-20</min-deg>
+		<max-deg>20</max-deg>
+		<factor>45</factor>
+		<center>
+			<x-m>-0.979</x-m>
+			<y-m>-0.161</y-m>
+			<z-m>-0.213</z-m>
+		</center>
+		<axis>
+			<x>0</x>
+			<y>1</y>
+			<z>0</z>
+		</axis>
+	</animation>
+ 	<animation>
+		<type>rotate</type>
+		<object-name>Rudderpedalscopilot</object-name>
+		<property>/controls/flight/rudder</property>
+		<min-deg>-20</min-deg>
+		<max-deg>20</max-deg>
+		<factor>45</factor>
+		<center>
+			<x-m>-1.030</x-m>
+			<y-m>0.161</y-m>
+			<z-m>-0.213</z-m>
+		</center>
+		<axis>
+			<x>0</x>
+			<y>-1</y>
+			<z>0</z>
+		</axis>
+	</animation>
 	<animation>
 		<object-name>Rearwheel</object-name>
 		<property>controls/flight/rudder</property>
@@ -47,7 +83,7 @@ A. Goritsas-->
 		</center>
 	</animation>
 
-		<animation>
+	<animation>
 		<object-name>Elevator</object-name>
 		<object-name>Trim</object-name>
 		<property>controls/flight/elevator</property>
@@ -64,7 +100,46 @@ A. Goritsas-->
 			<z-m>0.477</z-m>
 		</center>
 	</animation>
-			<animation>
+
+ 	<animation>
+		<type>rotate</type>
+		<object-name>Steeringstick</object-name>
+		<property>/controls/flight/elevator</property>
+		<min-deg>-15</min-deg>
+		<max-deg>15</max-deg>
+		<factor>18</factor>
+		<center>
+			<x-m>-0.696</x-m>
+			<y-m>0</y-m>
+			<z-m>-0.284</z-m>
+		</center>
+		<axis>
+			<x>0</x>
+			<y>-1</y>
+			<z>0</z>
+		</axis>
+	</animation>
+
+ 	<animation>
+		<type>rotate</type>
+		<object-name>Steeringstick</object-name>
+		<property>/controls/flight/aileron</property>
+		<min-deg>-10</min-deg>
+		<max-deg>10</max-deg>
+		<factor>-10</factor>
+		<center>
+			<x-m>-0.696</x-m>
+			<y-m>0</y-m>
+			<z-m>-0.284</z-m>
+		</center>
+		<axis>
+			<x>1</x>
+			<y>0</y>
+			<z>0</z>
+		</axis>
+	</animation>
+
+	<animation>
 		<object-name>Trim</object-name>
   <property>controls/flight/elevator-trim</property>
   		<type>rotate</type>
@@ -84,7 +159,7 @@ A. Goritsas-->
 		<object-name>Leftaileron</object-name>
 		<property>controls/flight/aileron</property>
 		<type>rotate</type>
-		<factor>45</factor>
+		<factor>30</factor>
 		<axis>
       	<x1-m>-0.069</x1-m>
       	<y1-m>-7.667</y1-m>
@@ -93,12 +168,12 @@ A. Goritsas-->
       	<y2-m>-4.761</y2-m>
       	<z2-m>0.166</z2-m>
     	</axis>
-	</animation>
-		<animation>
+</animation>
+<animation>
 		<object-name>Rightaileron</object-name>
 		<property>controls/flight/aileron</property>
 		<type>rotate</type>
-		<factor>-45</factor>
+		<factor>-30</factor>
 		<axis>
       	<x1-m>0.298</x1-m>
       	<y1-m>4.761</y1-m>
@@ -107,9 +182,9 @@ A. Goritsas-->
       	<y2-m>7.667</y2-m>
       	<z2-m>0.337</z2-m>
     	</axis>
-   </animation>
+</animation>
 
-	<animation>
+<animation>
 	<object-name>Leftspeedbrake</object-name>
 	<type>rotate</type>
 	<factor>-90</factor>
@@ -122,9 +197,9 @@ A. Goritsas-->
 	 	<y2-m>-2.141</y2-m>
 	 	<z2-m>0.162</z2-m>
 	</axis>
-	</animation>
+</animation>
 	
-	<animation>
+<animation>
 	<object-name>Rightspeedbrake</object-name>
 	<type>rotate</type>
 	<factor>-90</factor>
@@ -137,7 +212,25 @@ A. Goritsas-->
 	 	<y2-m>3.231</y2-m>
 	 	<z2-m>0.213</z2-m>
 	</axis>
-	 </animation>
+</animation>
+<animation>
+		<type>rotate</type>
+		<object-name>Brakesticks</object-name>
+		<property>/controls/flight/spoilers</property>
+		<max-deg>30</max-deg>
+		<factor>30</factor>
+		<center>
+			<x-m>-0.668</x-m>
+			<y-m>-0.214</y-m>
+			<z-m>-0.276</z-m>
+		</center>
+		<axis>
+			<x>0</x>
+			<y>1</y>
+			<z>0</z>
+		</axis>
+	</animation>
+
 
 <animation>
   <type>rotate</type>
