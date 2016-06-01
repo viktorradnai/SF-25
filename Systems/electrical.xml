@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<PropertyList>
+	<electrical>
+		<path/>
+		<!-- Important: clear the path to disable the default Flightgear system -->
+		<!-- Components -->
+		<component>
+			<kind type="string">battery</kind>
+			<name type="string">Battery</name>
+			<volts type="float">24</volts>
+			<prop type="string">/systems/electrical/suppliers/battery</prop>
+		</component>
+		<component>
+			<kind type="string">alternator</kind>
+			<name type="string">Alternator</name>
+			<volts type="float">28</volts>
+			<prop type="string">/systems/electrical/suppliers/alternator</prop>
+			<source-prop type="string">/engines/engine/rpm</source-prop>
+			<source-min type="float">600</source-min>
+		</component>
+		<component>
+			<kind type="string">output</kind>
+			<name type="string">Primary Bus</name>
+			<prop type="string">/systems/electrical/outputs/bus-dc</prop>
+			<prop type="string">/systems/electrical/outputs/turn-coordinator</prop>
+			<prop type="string">/systems/electrical/outputs/flaps</prop>
+			<prop type="string">/systems/electrical/outputs/transponder</prop>
+			<prop type="string">/systems/electrical/outputs/comm</prop>
+		</component>
+		<component>
+			<kind type="string">output</kind>
+			<name type="string">Starter</name>
+			<prop type="string">/systems/electrical/outputs/starter</prop>
+		</component>
+		<component>
+			<kind type="string">output</kind>
+			<name type="string">Landing Light</name>
+			<prop type="string">/systems/electrical/outputs/landing-light</prop>
+		</component>
+		<component>
+			<kind type="string">output</kind>
+			<name type="string">Panel Lights</name>
+			<prop type="string">/systems/electrical/outputs/panel-norm</prop>
+		</component>
+		<!-- Connectors -->
+		<connector>
+			<input type="string">Battery</input>
+			<output type="string">Primary Bus</output>
+			<switch type="string">/controls/switches/battery</switch>
+		</connector>
+		<connector>
+			<input type="string">Alternator</input>
+			<output type="string">Primary Bus</output>
+			<switch type="string">/systems/electrical/breakers/alternator</switch>
+		</connector>
+		<connector>
+			<input type="string">Primary Bus</input>
+			<output type="string">Starter</output>
+			<switch type="string">/controls/engines/engine/starter</switch>
+		</connector>
+		<connector>
+			<input type="string">Primary Bus</input>
+			<output type="string">Landing Light</output>
+			<switch type="string">/controls/switches/landing-light</switch>
+		</connector>
+		<connector>
+			<input type="string">Primary Bus</input>
+			<output type="string">Panel Lights</output>
+			<switch type="string">/controls/lighting/panel-norm</switch>
+		</connector>
+	</electrical>
+</PropertyList>

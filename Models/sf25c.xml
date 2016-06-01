@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<PropertyList>
+	<model>
+		<path>Aircraft/sf25b/Models/sf25c-model.xml</path>
+		<offsets>
+			<x-m>  0.000 </x-m>
+			<y-m>  0.000 </y-m>
+			<z-m>  0.000 </z-m>
+			<pitch-deg> 0.000 </pitch-deg>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/sf25b/Models/Interior/Panel/sf25c-panel.xml</path>
+		<offsets>
+			<x-m> -0.872 </x-m>
+			<y-m>  0.000 </y-m>
+			<z-m>  0.000 </z-m>
+		</offsets>
+	</model>
+</PropertyList>
