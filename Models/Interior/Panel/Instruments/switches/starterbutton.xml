@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+	<path>pushbutton.ac</path>
+	<animation>
+		<type>translate</type>
+		<object-name>button</object-name>
+		<property>/controls/engines/engine/starter</property>
+		<factor>-0.003</factor>
+		<axis>
+			<x>1</x>
+			<y>0</y>
+			<z>0</z>
+		</axis>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<object-name>button</object-name>
+		<action>
+			<button>0</button>
+			<binding>
+				<command>property-toggle</command>
+				<property>/controls/engines/engine/starter</property>
+			</binding>
+			<mod-up>
+				<binding>
+					<command>property-toggle</command>
+					<property>/controls/engines/engine/starter</property>
+				</binding>
+			</mod-up>
+		</action>
+	</animation>
+</PropertyList>

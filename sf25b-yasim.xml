@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <!--
-SF25C
-<cockpit x="0.201" y="0" z="0.61"/>
+Flight model for SF25C
 -->
 <airplane mass="1190">
 	<approach speed="38" aoa="6" fuel="0.2">
@@ -22,7 +21,7 @@ SF25C
 		<control-input axis="/controls/flight/aileron" control="FLAP0" split="true"/>
 		<control-output control="FLAP0" side="left" prop="surface-positions/left-aileron-pos-norm"/>
 		<control-output control="FLAP0" side="right" prop="surface-positions/right-aileron-pos-norm"/>
-		<spoiler start="0.231" end="0.38" lift="-0.2" drag="12"/>
+		<spoiler start="0.231" end="0.38" lift="-0.2" drag="10"/>
 		<control-input axis="/controls/flight/spoilers" control="SPOILER" src0="0.0" src1="0.8" dst0="0.0" dst1="1.0"/>
 		<control-output control="SPOILER" prop="/surface-positions/speedbrake-pos-norm"/>
 	</wing>
@@ -49,9 +48,9 @@ SF25C
 			<control-input control="MIXTURE" axis="/controls/engines/engine[0]/mixture"/>
 		</piston-engine>
 	</propeller>
-	<gear x="0.485" y="0.0" z="-0.76" dfric="0.7" sfric="0.8" damp="0.5" spring="1.5" compression="0.1">
+	<gear x="0.485" y="0.0" z="-0.76" dfric="0.6" sfric="0.7" damp="0.5" spring="1.5" compression="0.1">
 		<control-input axis="/controls/gear/brake-parking" control="BRAKE" split="false"/>
-		<control-input axis="/controls/flight/spoilers" control="BRAKE" split="false" src0="0.8" src1="1.0" dst0="0.0" dst1="1.0"/>
+		<control-input axis="/controls/flight/spoilers" control="BRAKE" split="false" src0="0.8" src1="1.0" dst0="0.0" dst1="0.7"/>
 	</gear>
 	<gear x="0.036" y="-3.087" z="-0.646" dfric="0.07" sfric="0.08" damp="5" spring="0.5" compression="0.1"/>
 	<gear x="0.036" y="3.087" z="-0.646" dfric="0.07" sfric="0.08" damp="5" spring="0.5" compression="0.1"/>

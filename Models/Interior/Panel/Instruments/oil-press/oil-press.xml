@@ -32,7 +32,8 @@
 	<animation>
 		<type>rotate</type>
 		<object-name>needle</object-name>
-		<property>engines/engine/oil-pressure-psi</property>
+		<!-- <property>engines/engine/oil-pressure-psi</property> -->
+		<property>instrumentation/engine/oil-press</property>
 		<interpolation>
 			<entry>
 				<ind>   0 </ind>

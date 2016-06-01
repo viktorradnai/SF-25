@@ -8,7 +8,7 @@ var yawstring = func {
 	{
          severity = ( math.sin (  math.pi * airspeed/54 ) * rand() ) ;
         }
-	var position = getprop("orientation/side-slip-deg") + severity ;
+	var position = -getprop("orientation/side-slip-deg") + severity ;
 
 	setprop("instrumentation/yawstring",position);
 	

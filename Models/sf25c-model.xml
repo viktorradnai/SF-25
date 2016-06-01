@@ -4,7 +4,7 @@
 	Author: A. Goritsas, V. Radnai
 -->
 <PropertyList>
-	<path>sf25b.ac</path>
+	<path>sf25c.ac</path>
 	<texture-path>Textures</texture-path>
 	<offsets>
 		<x-m>0.0</x-m>
@@ -212,6 +212,7 @@
 		<object-name>Brakesticks</object-name>
 		<property>/controls/flight/spoilers</property>
 		<max-deg>30</max-deg>
+		<offset-deg>-30</offset-deg>
 		<factor>30</factor>
 		<center>
 			<x-m>-0.668</x-m>
@@ -364,6 +365,26 @@
 			<x>0.0</x>
 			<y>-1.0</y>
 			<z>0.0</z>
+		</axis>
+	</animation>
+	<animation>
+		<type>flash</type>
+		<object-name>Beacon</object-name>
+		<offset>0.0</offset>
+		<factor>1.0</factor>
+		<power>2</power>
+		<two-sides type="bool">false</two-sides>
+		<min>0.0</min>
+		<max>1.0</max>
+		<center>
+			<x-m>0.82</x-m>
+			<y-m>0.65</y-m>
+			<z-m>0.0</z-m>
+		</center>
+		<axis>
+			<x>0.0</x>
+			<y>-1</y>
+			<z>0.1</z>
 		</axis>
 	</animation>
 </PropertyList>

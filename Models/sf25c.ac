@@ -11,7 +11,7 @@ OBJECT poly
 name "Antenna"
 data 7
 Antenna
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 14
@@ -495,7 +495,7 @@ OBJECT poly
 name "Brakesticks"
 data 11
 brakesticks
-texture "D-KOSI_cockpit.png"
+texture "HA-1211_cockpit.png"
 texrep 1 1
 crease 80.000000
 numvert 98
@@ -1191,7 +1191,7 @@ OBJECT poly
 name "Canopyback"
 data 10
 canopyback
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 44
@@ -5687,7 +5687,7 @@ OBJECT poly
 name "Canopyframe"
 data 11
 canopyframe
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 362
@@ -9057,7 +9057,7 @@ OBJECT poly
 name "Canopyfront"
 data 11
 canopyfront
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 148
@@ -10753,7 +10753,7 @@ OBJECT poly
 name "Canopywindows"
 data 13
 canopywindows
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 30.000000
 numvert 56
@@ -11231,7 +11231,7 @@ OBJECT poly
 name "Canopywindowsback"
 data 17
 canopywindowsback
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 30.000000
 numvert 24
@@ -11405,7 +11405,7 @@ OBJECT poly
 name "Cockpit"
 data 7
 cockpit
-texture "D-KOSI_cockpit.png"
+texture "HA-1211_cockpit.png"
 texrep 1 1
 crease 80.000000
 numvert 106
@@ -12169,7 +12169,7 @@ OBJECT poly
 name "Cylinder"
 data 12
 Cylinder.002
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 83
@@ -12702,7 +12702,7 @@ OBJECT poly
 name "Elevator"
 data 8
 elevator
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 34
@@ -12956,7 +12956,7 @@ OBJECT poly
 name "Enginecap"
 data 9
 enginecap
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 184
@@ -14468,7 +14468,7 @@ OBJECT poly
 name "Exhaust"
 data 7
 exhaust
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 30.000000
 numvert 17
@@ -14599,7 +14599,7 @@ OBJECT poly
 name "Fcaps"
 data 5
 fcaps
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 387
@@ -17636,7 +17636,7 @@ OBJECT poly
 name "Footbars"
 data 8
 footbars
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 192
@@ -19014,7 +19014,7 @@ OBJECT poly
 name "Frontwheel"
 data 10
 frontwheel
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 362
@@ -22252,7 +22252,7 @@ OBJECT poly
 name "Fuselage"
 data 8
 fuselage
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 599
@@ -27078,7 +27078,7 @@ OBJECT poly
 name "Hstabilizer"
 data 11
 hstabilizer
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 30
@@ -27314,7 +27314,7 @@ OBJECT poly
 name "Leftaileron"
 data 15
 leftaileron.001
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 6
@@ -27363,7 +27363,7 @@ OBJECT poly
 name "Leftsidewheel"
 data 13
 leftsidewheel
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 86
@@ -28107,7 +28107,7 @@ OBJECT poly
 name "Leftspeedbrake"
 data 14
 leftspeedbrake
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 30
@@ -38266,7 +38266,7 @@ OBJECT poly
 name "Propeller"
 data 9
 propeller
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 288
@@ -40514,7 +40514,7 @@ OBJECT poly
 name "Propeller.001"
 data 13
 propeller.001
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 193
@@ -41919,7 +41919,7 @@ OBJECT poly
 name "Reargrips"
 data 9
 reargrips
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 224
@@ -43609,7 +43609,7 @@ OBJECT poly
 name "Rearwheel"
 data 9
 rearwheel
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 86
@@ -44353,7 +44353,7 @@ OBJECT poly
 name "Rightaileron"
 data 12
 rightaileron
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 6
@@ -44402,7 +44402,7 @@ OBJECT poly
 name "Rightsidewheel"
 data 14
 rightsidewheel
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 86
@@ -45146,7 +45146,7 @@ OBJECT poly
 name "Rightspeedbrake"
 data 19
 rightspeedbrake.001
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 30
@@ -45333,7 +45333,7 @@ OBJECT poly
 name "Rudder"
 data 6
 rudder
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 12
@@ -45425,7 +45425,7 @@ OBJECT poly
 name "Rudderpedalscopilot"
 data 19
 rudderpedalscopilot
-texture "D-KOSI_cockpit.png"
+texture "HA-1211_cockpit.png"
 texrep 1 1
 crease 80.000000
 numvert 376
@@ -48331,7 +48331,7 @@ OBJECT poly
 name "Rudderpedalspilot"
 data 17
 rudderpedalspilot
-texture "D-KOSI_cockpit.png"
+texture "HA-1211_cockpit.png"
 texrep 1 1
 crease 80.000000
 numvert 376
@@ -51237,7 +51237,7 @@ OBJECT poly
 name "Seats"
 data 5
 seats
-texture "D-KOSI_cockpit.png"
+texture "HA-1211_cockpit.png"
 texrep 1 1
 crease 80.000000
 numvert 112
@@ -52135,7 +52135,7 @@ OBJECT poly
 name "Spinningpropeller"
 data 17
 spinningpropeller
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 30.000000
 numvert 448
@@ -55281,7 +55281,7 @@ OBJECT poly
 name "Steeringstick"
 data 13
 steeringstick
-texture "D-KOSI_cockpit.png"
+texture "HA-1211_cockpit.png"
 texrep 1 1
 crease 80.000000
 numvert 159
@@ -56468,7 +56468,7 @@ OBJECT poly
 name "Trim"
 data 4
 Trim
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 8
@@ -56528,7 +56528,7 @@ OBJECT poly
 name "Vstabilizer"
 data 11
 vstabilizer
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 27
@@ -56745,7 +56745,7 @@ OBJECT poly
 name "Wings"
 data 5
 wings
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 230
@@ -58479,7 +58479,7 @@ OBJECT poly
 name "Wingsupport"
 data 11
 wingsupport
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 156
@@ -59673,7 +59673,7 @@ OBJECT poly
 name "Wingtips"
 data 8
 Wingtips
-texture "D-KOSI.png"
+texture "HA-1211.png"
 texrep 1 1
 crease 80.000000
 numvert 324
