@@ -30,17 +30,16 @@ setlistener("/controls/gear/brake-right", func {
 # If parking brake enabled,
 # set spoilers and smoothly apply brakes
 
-setlistener("/controls/gear/brake-parking", func {
-	if (brake_parking.getValue() == 1) {
-		spoilers.setValue(1);
-		controls.applyBrakes(1, -1);
-		controls.applyBrakes(1, 1);
-	} 
+#setlistener("/controls/gear/brake-parking", func {
+#	if (brake_parking.getValue() == 1) {
+#		spoilers.setValue(1);
+#		controls.applyBrakes(1, -1);
+#		controls.applyBrakes(1, 1);
+#	} 
 #else {
 #		spoilers.setValue(0);
 #		controls.applyBrakes(0, -1);
 #		controls.applyBrakes(0, 1);
 #	}
-});
+#});
 
-`

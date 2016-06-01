@@ -33,30 +33,37 @@
 	<animation>
 		<type>rotate</type>
 		<object-name>needle</object-name>
-		<property>engines/engine/oil-temperature-degf</property>
+		<!-- <property>engines/engine/oil-temperature-degf</property> -->
+		<property>/instrumentation/engine/oil-temp</property>
 		<interpolation>
 			<entry>
-				<ind>  50 </ind>
+				<!-- <ind>  50 </ind> -->
+				<ind>  90 </ind>
 				<dep>  0.0 </dep>
 			</entry>
 			<entry>
-				<ind>  60 </ind>
+				<!-- <ind>  60 </ind> -->
+				<ind>  108 </ind>
 				<dep>  2.0 </dep>
 			</entry>
 			<entry>
-				<ind>  80 </ind>
+				<!-- <ind>  80 </ind> -->
+				<ind>  144 </ind>
 				<dep> 19.5 </dep>
 			</entry>
 			<entry>
-				<ind> 105 </ind>
+				<!-- <ind> 105 </ind> -->
+				<ind> 190 </ind>
 				<dep> 36.5 </dep>
 			</entry>
 			<entry>
-				<ind> 130 </ind>
+				<!-- <ind> 130 </ind> -->
+				<ind> 235 </ind>
 				<dep> 67.5 </dep>
 			</entry>
 			<entry>
-				<ind> 150 </ind>
+				<!-- <ind> 150 </ind> -->
+				<ind> 270 </ind>
 				<dep> 92.5 </dep>
 			</entry>
 		</interpolation>

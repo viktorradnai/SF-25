@@ -30,3 +30,26 @@ var toggle_canopy = func {
       canopy.open();
   }
 }
+
+var toggle_lwindow = func {
+  lwindow = aircraft.door.new ("/controls/lwindow/",1);
+  if(getprop("/controls/lwindow/position-norm") > 0) {
+      lwindow.close();
+  } else {
+
+      lwindow.open();
+  }
+}
+
+var toggle_rwindow = func {
+  rwindow = aircraft.door.new ("/controls/rwindow/",1);
+  if(getprop("/controls/rwindow/position-norm") > 0) {
+      rwindow.close();
+  } else {
+
+      rwindow.open();
+  }
+}
+
+var beacon_switch = props.globals.initNode("lighting/beacon", 1, "BOOL");
+aircraft.light.new("sim/model/sf25b/lighting/beacon-top", [0.62, 0.62], beacon_switch);
